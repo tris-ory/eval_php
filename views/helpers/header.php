@@ -18,7 +18,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,9 +28,10 @@
                     <?php foreach ($pages as $label => $link): ?>
                         <li class="nav-item">
                             <a href="<?= $link ?>" <?= $label == $action ? 'aria-current="page" ' : '' ?>
-                            class="text-secondary nav-link<?= $label == $action ? ' active':'' ?>"><?= $label ?></a>
+                            class="text-secondary nav-link<?= $label == $action ? ' active-link':'' ?>"><?= $label ?></a>
                         </li>
                     <?php endforeach; ?>
+                </ul>
             </div>
         </div>
     </nav>
