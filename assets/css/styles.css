@@ -1,0 +1,12 @@
+.rounded{
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
+    /*background-color: #9cd7e8;
+    background-image: linear-gradient(45deg, #9cd7e8 0%, #cdd3bc 100%);*/
+}
+
+img {
+    border-radius: 8px;
+}
